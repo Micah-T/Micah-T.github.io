@@ -5,8 +5,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 {% for item in site.data.navigation %}
-                     <li {% if page.url == item.link %} class="nav-item active" {% endif %}
-                        {% if page.url != item.link %} class="nav-item" {% endif %}>
+                     <li {% if page.url == "item.link" %} class="nav-item active" {% endif %}
+                        {% if page.url != "item.link" %} class="nav-item" {% endif %}>
                         <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
                     </li>
                 {% endfor %}
@@ -19,4 +19,8 @@
         {{ item.name }}
       </a>
     {% endfor %}
+    lasjdglajl
+  </nav>
+  <nav>
+      {% for item }
   </nav>
