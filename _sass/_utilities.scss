@@ -1,0 +1,34 @@
+﻿.ref {
+	vertical-align: super;
+	font-size: 75%;
+	font-style: normal;
+	font-weight: normal;
+	padding: 0 .25em;
+	}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		}
+	}
+#reflist {
+	ul {
+		list-style-type: none;
+		}
+	}
+cite {
+	font-style: inherit;
+	}
+::selection {
+	color: white;
+	background-color: $success;
+	}
+q::before {
+	content: "“";
+	}
+q::after {
+	content: "”";
+	}
+i, .word {
+	font-style: italic;
+	}

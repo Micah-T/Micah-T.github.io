@@ -1,3 +1,5 @@
-h1 {
-    color: blue;
-}
+@import "./Bootstrap/bootstrap.scss";
+@import "_variables";
+@import "_utilities";
+@import "_myvariables";
+@import "_flipcard";
